@@ -1,0 +1,49 @@
+PANDUAN DEPLOY - Rumah Khitan Syafaat Pakis
+============================================
+
+ISI FOLDER
+- index.html                 : Beranda
+- tentang-kami/              : Tentang Kami
+- layanan/                   : Layanan Khitan
+- metode-khitan/             : Metode dan Paket
+- fasilitas/                 : Fasilitas
+- perawatan-setelah-khitan/  : Perawatan Setelah Khitan
+- galeri/                    : Galeri dan Video
+- ulasan/                    : Ulasan Pelanggan
+- kontak/                    : Kontak dan Lokasi
+- assets/                    : CSS, JavaScript, foto, logo, video
+- sitemap.xml, robots.txt    : SEO dasar
+
+CARA PUBLIKASI (GitHub Pages, gratis)
+1. Buat repository baru di GitHub, misalnya rumahkhitansyafaatpakis.
+2. Upload SELURUH ISI folder ini (bukan folder pembungkusnya) ke repository.
+3. Buka Settings > Pages > Source: Deploy from a branch > main > / (root) > Save.
+4. Website akan aktif di alamat https://USERNAME.github.io/NAMA-REPO/
+   Semua tautan di website memakai alamat relatif, jadi tetap berfungsi
+   di alamat tersebut maupun di domain sendiri.
+
+SEBELUM DIPUBLIKASIKAN, WAJIB DICEK
+1. Domain: ganti GANTI-DOMAIN-ANDA di sitemap.xml dan robots.txt
+   dengan domain asli. Lalu tambahkan tag canonical jika domain sudah pasti.
+2. Nomor WhatsApp: website memakai 0812-3363-2123 (sesuai video dan
+   informasi pemilik). Poster harga memuat nomor 0821-4087-0008, berbeda dari
+   nomor tersebut. Pastikan nomor yang benar sebelum publikasi.
+   Domain di poster dan video: www.rumahkhitansyafaat.com (belum dipasang
+   di sitemap/robots karena belum dikonfirmasi).
+3. Harga: website TIDAK menampilkan harga. Poster harga masih perlu dikonfirmasi
+   pemilik sebelum nominalnya dipakai.
+4. Video wawancara: pastikan orang tua dan staf yang tampil sudah memberi izin
+   publikasi. Video sudah dikompres ke 540x960 (sekitar 9 MB).
+5. Logo ASOKI dan TRIOS: TIDAK ditampilkan. Tampilkan hanya jika pemilik
+   mengonfirmasi keanggotaan dan izin penggunaan logo.
+6. Isi edukasi perawatan setelah khitan: sebaiknya ditinjau tenaga medis.
+7. Google Maps: kategori bisnis di Google sebaiknya sesuai (layanan khitan),
+   dan jam operasional di Google Maps perlu dikonfirmasi pemilik.
+8. Foto: foto anak, tindakan medis, dan tangkapan layar WhatsApp dengan
+   data pasien TIDAK dipakai di website. Jika ingin dipakai, minta izin
+   tertulis orang tua atau wali terlebih dahulu.
+
+CATATAN TEKNIS
+- Font dan GSAP dimuat dari internet (Fontshare, Google Fonts, cdnjs).
+- Animasi menghormati pengaturan "kurangi gerakan" di perangkat.
+- Pada layar lebar, bagian Fasilitas bergerak horizontal saat di-scroll.
